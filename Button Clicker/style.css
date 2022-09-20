@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: silver;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 660px;
+    left: 50%;
+}
+#top{
+    display: flex;
+    justify-content:
+}
+#top h1{
+    margin-right: 40px;
+    margin-left: -0px;
+}
+#top button{
+    background-color: dodgerblue;
+    color: white;
+    border: 3px solid black;
+    width: 60px;
+    height: 30px;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+}
+input{
+    border: 2px solid black;
+    padding: 5px 10px;
+    width: 300px;
+    margin-right: 50px;
+}
+.meaning{
+    display: flex;
+    flex-direction: column;
+}
+.column1{
+    flex:50%;
+    display: flex;
+    border: 2px solid black;
+    flex: 2;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.content{
+    margin:;
+    display: flex;
+    flex: 1;
+    justify-content: center;}
+.span{
+    margin: 0;
+}
+.add-def{
+    border: 2px solid black;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 26px;
+    padding: 10px;
+}
+.add-def button{
+    margin-top: 20px;
+    height: 30px;
+    background-color: green;
+    border: 2px solid black;
+    box-shadow: 4px 4px;
+    cursor: pointer;
+}
+.def1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.def{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    font-size: 18px;
+}
+.likes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: rgb(247, 224, 17);
+    box-shadow: 4px 4px;
+    cursor: pointer;
+    height: 30px;
+}
+.add-def span{
+    font-weight: bold;
+}
+.noun{
+    margin: 20px;
+}
+.span{
+    font-style: italic;
+}
+.column1 h2{
+    margin-left: 10px;
+}
+label{
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+    color: gray;
+}

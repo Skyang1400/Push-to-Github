@@ -1,0 +1,42 @@
+*{
+    margin-left: 20px;
+    padding: 0px;
+}
+#top{
+    background-color: teal;
+    border: 10px;
+    margin-left: -40px;
+    padding: 100px;
+}
+#circle{
+    margin-top: -100px;
+    width: 200px;
+}
+#name{
+    font-size: 50px;
+    margin: 5px;
+}
+#map{
+    width: 20px;
+}
+#seattle{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.etc{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.header{
+    margin-bottom: 10px;
+}
+#edit{
+    margin-top: 10px;
+}
+#gear{
+    width: 20px;
+}
+#link{
+    margin-left: 5px;
+    font-size: 20px;
+}

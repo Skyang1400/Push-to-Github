@@ -1,0 +1,21 @@
+h1{
+    background-color: black;
+    color: white;
+    
+}
+#cloud{
+    color:aqua;
+}
+h2{
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    font-style: italic;
+}
+p{
+    background-color: lightblue;
+    color: blue;
+    text-align: right;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}

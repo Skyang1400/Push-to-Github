@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="flex">
+        <div class="container">
+            <div id="top">
+                <h1>Dojonary</h1>
+                <form action="#">
+                    <label for="search-bar">Search</label>
+                    <input type="text" name="search-bar">
+                </form>
+                <button onclick="login(this)">Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="meaning">
+            <div class="column1">
+                <div class="def1"  id="middle">
+                    <h2>Ninja</h2>
+                    <p>
+                        <span class="noun">noun</span><br>
+                        Plural: <span class="span">ninjas</span>
+                    </p>
+                    <button class="likes" onclick="message(this)">
+                        37 likes
+                    </button>
+                </div>
+                <div class="def"id="definition1" >
+                    <p>
+                        A practioner skilled in<br> <a class="span" href="#">Japanese</a> art of <a class="span" href="#">ninjustu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="column1">
+                <div class="def1">
+                    <h2>Ninja</h2>
+                    <p>
+                        <span class="noun">noun</span><br>
+                        Plural: <span class="span">ninjas</span>
+                    </p>
+                    <button class="likes" onclick="message(this)">
+                        37 likes
+                    </button>
+                </div>
+                <div class="def" id="definition2">
+                    <p>
+                        A <a class="span" href="#">programmer</a> who breaks<br> down problems with <a class="span" href="#">zen</a>-like<br> focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="add-def" id="column2">
+        <p>Dojonary is<br> defined by <span>YOU</span></p>
+        <button onclick="hide(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
